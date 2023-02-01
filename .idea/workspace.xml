@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82b2e684-97b9-4366-8125-d0cd5cdb1ddb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReworkMinitest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CrispyFlour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MaterialManagers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrispyFlour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/material/CrispyFlour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/material/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/material/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaterialManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MaterialManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/material/Meat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +48,32 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="ReworkMinitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaterialManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaterialManager" />
+      <option name="MAIN_CLASS_NAME" value="test.MaterialManager" />
       <module name="ReworkMinitest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaterialManager" />
       </list>
     </recent_temporary>
@@ -78,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675066853190</updated>
       <workItem from="1675066854314" duration="5771000" />
+      <workItem from="1675127025371" duration="601000" />
+      <workItem from="1675147008135" duration="4870000" />
     </task>
     <servers />
   </component>

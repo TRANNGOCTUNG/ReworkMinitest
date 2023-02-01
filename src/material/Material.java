@@ -1,7 +1,8 @@
-import java.time.LocalDate;
-import java.util.Locale;
+package material;
 
-public abstract class Material {
+import java.time.LocalDate;
+
+public abstract class Material implements Discount {
     private String id;
     private String name;
     private LocalDate manufacturingDate;

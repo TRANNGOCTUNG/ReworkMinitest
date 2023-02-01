@@ -1,5 +1,10 @@
+package test;
+
+import material.CrispyFlour;
+import material.Material;
+import material.Meat;
+
 import java.time.LocalDate;
-import java.util.Scanner;
 
 public class MaterialManager {
     public static void main(String[] args) {
@@ -37,12 +42,6 @@ public class MaterialManager {
 
     }
 
-    int index;
-    Scanner input = new Scanner(System.in);
-    public void deleteElement(){
-        System.out.println("nhập vị trí muốn xóa");
-        index = input.nextInt();
-    }
 
     public static double getRealPrice(Material material){
         LocalDate now = LocalDate.now();
@@ -51,19 +50,19 @@ public class MaterialManager {
             Meat meat = (Meat)material;
             expiryDate = meat.getExpiryDate();
             if(expiryDate.minusDays(5).isBefore(now)){
-                return material.getCost() * 0.6;
+                return material.getCost() * 0.3;
             } else {
-                return material.getCost() * 0.9;
+                return material.getCost() * 0.1;
             }
         } else {
             CrispyFlour flour = (CrispyFlour)material;
             expiryDate = flour.getExpiryDate();
             if(expiryDate.minusMonths(2).isBefore(now)){
-                return material.getCost() * 0.6;
+                return material.getCost() * 0.4;
             } else if (expiryDate.minusMonths(4).isBefore(now)) {
-                return material.getCost() * 0.8;
+                return material.getCost() * 0.2;
             } else {
-                return material.getCost() * 0.95;
+                return material.getCost() * 0.05;
             }
         }
     }
