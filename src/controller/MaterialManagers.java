@@ -1,9 +1,8 @@
-package main;
+package controller;
 
-import material.CrispyFlour;
-import material.Material;
-import material.Meat;
-import org.w3c.dom.Node;
+import model.CrispyFlour;
+import model.Material;
+import model.Meat;
 
 import java.time.LocalDate;
 import java.util.*;

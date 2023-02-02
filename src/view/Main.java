@@ -1,7 +1,8 @@
-package main;
+package view;
 
-import material.CrispyFlour;
-import material.Meat;
+import controller.MaterialManagers;
+import model.CrispyFlour;
+import model.Meat;
 
 import java.time.LocalDate;
 import java.util.Scanner;
